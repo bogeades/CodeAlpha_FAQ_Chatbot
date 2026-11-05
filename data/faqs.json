@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "topic": "CodeAlpha AI Internship & Technical Support Assistant",
+    "version": "1.0.0",
+    "description": "Comprehensive FAQ dataset covering internship details, project guidelines, AI/ML track requirements, submission procedures, certificates, and technical support.",
+    "default_threshold": 0.32,
+    "fallback": {
+      "message": "I'm sorry, I couldn't find a confident answer to your question in our knowledge base. You can rephrase your question, choose one of the predefined topics, or reach out to our internship support team at support@codealpha.tech.",
+      "suggested_questions": [
+        "What are the requirements for the AI internship?",
+        "How do I submit my completed internship tasks?",
+        "When will I receive my internship completion certificate?",
+        "Can I use pre-trained models for my NLP tasks?"
+      ]
+    }
+  },
+  "faqs": [
+    {
+      "id": "faq_001",
+      "category": "Internship Overview",
+      "question": "What is the CodeAlpha Internship Program?",
+      "patterns": [
+        "What is CodeAlpha internship?",
+        "Tell me about CodeAlpha",
+        "What is this internship about?",
+        "Overview of CodeAlpha internship program",
+        "Who is CodeAlpha?",
+        "What can I learn during CodeAlpha internship?"
+      ],
+      "answer": "CodeAlpha is an ed-tech and student development platform providing virtual internship programs across diverse domains including Artificial Intelligence, Machine Learning, Web Development, and Cybersecurity. The program allows students to gain hands-on practical project experience, build portfolio-worthy applications, and earn industry-recognized credentials.",
+      "tags": ["codealpha", "internship", "overview", "about", "program"]
+    },
+    {
+      "id": "faq_002",
+      "category": "Internship Overview",
+      "question": "What is the duration of the CodeAlpha internship?",
+      "patterns": [
+        "How long is the internship?",
+        "Internship duration and timeline",
+        "What is the period of the internship?",
+        "How many weeks or months does it take?",
+        "Internship time period"
+      ],
+      "answer": "The standard CodeAlpha internship duration is 1 month (4 weeks). During this timeframe, interns are assigned 3 to 4 project tasks designed to test and advance practical software engineering and machine learning capabilities.",
+      "tags": ["duration", "timeline", "weeks", "period", "month"]
+    },
+    {
+      "id": "faq_003",
+      "category": "Internship Overview",
+      "question": "Is the CodeAlpha internship remote and self-paced?",
+      "patterns": [
+        "Is this internship remote?",
+        "Is it work from home?",
+        "Can I work flexibly on my own schedule?",
+        "Is the internship online?",
+        "Do I need to attend daily meetings or physical office?"
+      ],
+      "answer": "Yes, the CodeAlpha internship is 100% remote (virtual) and flexible. You can manage your project development hours around your university classes and personal schedule, provided you meet your final submission deadlines.",
+      "tags": ["remote", "virtual", "flexible", "work from home", "online"]
+    },
+    {
+      "id": "faq_004",
+      "category": "AI & ML Track",
+      "question": "What are the core tasks for the AI and Machine Learning track?",
+      "patterns": [
+        "What are the tasks for AI internship?",
+        "CodeAlpha AI project list",
+        "Which projects do I have to complete in AI domain?",
+        "Machine learning track assignments",
+        "What tasks are given in artificial intelligence internship?"
+      ],
+      "answer": "The AI/ML track features hands-on tasks that typically include: 1) FAQ Chatbot using NLP, 2) Language Translation Tool, 3) Image Classification / Object Recognition, and 4) Predictive Modeling / Recommendation System. Completing at least 2 to 3 tasks to a high standard fulfills graduation criteria.",
+      "tags": ["ai", "machine learning", "tasks", "projects", "nlp", "assignments"]
+    },
+    {
+      "id": "faq_005",
+      "category": "AI & ML Track",
+      "question": "What technologies and libraries can I use for the AI projects?",
+      "patterns": [
+        "Which programming language should I use for AI tasks?",
+        "Can I use Python and scikit-learn?",
+        "Allowed technologies and tech stack for AI internship",
+        "Can I use PyTorch, TensorFlow, NLTK or spaCy?",
+        "Tech stack requirements for AI"
+      ],
+      "answer": "Python is the primary language recommended for the AI track. You are encouraged to use standard libraries such as NLTK, spaCy, scikit-learn, TensorFlow, PyTorch, Pandas, and NumPy. For user interfaces, you can build modern web apps using React, Streamlit, or FastAPI/Flask backends.",
+      "tags": ["tech stack", "python", "scikit-learn", "nltk", "spacy", "react", "fastapi"]
+    },
+    {
+      "id": "faq_006",
+      "category": "AI & ML Track",
+      "question": "How does the FAQ Chatbot NLP model work?",
+      "patterns": [
+        "How does the chatbot understand questions?",
+        "Explain the FAQ chatbot NLP pipeline",
+        "What algorithm powers the chatbot matching?",
+        "How do TF-IDF and cosine similarity work in this chatbot?",
+        "Chatbot architecture and matching logic"
+      ],
+      "answer": "The FAQ Chatbot pipeline operates in five key steps: 1) Text preprocessing (tokenization, lowercasing, stopword filtering, lemmatization), 2) TF-IDF vectorization to convert text into mathematical weight vectors, 3) Cosine similarity calculation between the user query vector and knowledge base questions, 4) Threshold validation to verify confidence, and 5) Returning the best matching answer or triggering a smart fallback.",
+      "tags": ["nlp", "chatbot", "tfidf", "cosine similarity", "pipeline", "algorithm"]
+    },
+    {
+      "id": "faq_007",
+      "category": "Submission & Guidelines",
+      "question": "How do I submit my completed internship projects?",
+      "patterns": [
+        "How to submit internship tasks?",
+        "Where do I submit my CodeAlpha projects?",
+        "Submission procedure for completed tasks",
+        "Submission form link and steps",
+        "Where should I send my github link for the tasks?",
+        "Where to submit github repository link?",
+        "Send github project link",
+        "How to turn in my work?"
+      ],
+      "answer": "To submit your completed projects: 1) Push clean, well-commented code with a descriptive README.md to a public GitHub repository. 2) Record a short video demonstration (1-3 minutes) or take screenshots showing working features. 3) Share your work on LinkedIn tagging CodeAlpha. 4) Submit the GitHub repo link and post URL via the official CodeAlpha task submission Google Form.",
+      "tags": ["submission", "github", "how to submit", "tasks", "google form"]
+    },
+    {
+      "id": "faq_008",
+      "category": "Submission & Guidelines",
+      "question": "What should be included in the GitHub repository for each task?",
+      "patterns": [
+        "What should the GitHub repo contain?",
+        "GitHub repository requirements for CodeAlpha",
+        "README guidelines for project submission",
+        "Project repository checklist"
+      ],
+      "answer": "Your GitHub repository should include: 1) Complete source code, 2) A requirements.txt or package.json for dependency installation, 3) A clear README.md with project description, architecture diagram, setup instructions, and feature highlights, 4) Screenshots or GIF demonstrations of the working application, and 5) License documentation.",
+      "tags": ["github", "repository", "readme", "requirements", "guidelines"]
+    },
+    {
+      "id": "faq_009",
+      "category": "Submission & Guidelines",
+      "question": "Can I request a deadline extension for my project submission?",
+      "patterns": [
+        "Can I extend the submission deadline?",
+        "What if I cannot complete tasks on time?",
+        "Deadline extension request",
+        "Late submission policy for CodeAlpha"
+      ],
+      "answer": "Yes, reasonable extensions of 3 to 7 days can be granted for genuine academic constraints or personal emergencies. Please notify the internship coordinator by emailing support@codealpha.tech or through the community helpdesk before the scheduled deadline.",
+      "tags": ["deadline", "extension", "late submission", "time limit"]
+    },
+    {
+      "id": "faq_010",
+      "category": "Certificates & Perks",
+      "question": "When will I receive my internship completion certificate?",
+      "patterns": [
+        "When do I get my certificate?",
+        "Certificate issuance date",
+        "How long after submission to get the certificate?",
+        "Certificate of completion delivery",
+        "Where will my certificate be sent?"
+      ],
+      "answer": "Certificates of Completion are verified and issued within 7 to 14 working days following the end of your internship cohort after your task submissions have been evaluated by our mentors. The verified digital certificate will be emailed directly to your registered email address.",
+      "tags": ["certificate", "completion", "issuance", "verification", "credentials"]
+    },
+    {
+      "id": "faq_011",
+      "category": "Certificates & Perks",
+      "question": "Is the CodeAlpha certificate verified and shareable on LinkedIn?",
+      "patterns": [
+        "Is the certificate authentic?",
+        "Can I add CodeAlpha certificate to LinkedIn profile?",
+        "Does the certificate have a verification ID or QR code?",
+        "Is the certificate recognized?"
+      ],
+      "answer": "Yes, all CodeAlpha certificates come with a unique verification credential ID and QR code that can be authenticated online. You can easily link it to your LinkedIn profile under the 'Licenses & Certifications' section and add it to your CV/portfolio.",
+      "tags": ["linkedin", "verification", "credential", "authentic", "recognition"]
+    },
+    {
+      "id": "faq_012",
+      "category": "Certificates & Perks",
+      "question": "Can I receive a Letter of Recommendation (LOR)?",
+      "patterns": [
+        "How to get a Letter of Recommendation from CodeAlpha?",
+        "Is LOR provided?",
+        "Criteria for Letter of Recommendation",
+        "Top performer LOR"
+      ],
+      "answer": "Yes! Interns who demonstrate outstanding project execution, clean coding standards, comprehensive documentation, and proactive community engagement are nominated as Top Performers and awarded an official Letter of Recommendation (LOR) from the CodeAlpha leadership team.",
+      "tags": ["lor", "recommendation", "letter of recommendation", "top performer"]
+    },
+    {
+      "id": "faq_013",
+      "category": "Technical Support",
+      "question": "How do I fix NLTK resource not found errors like stopwords or punkt?",
+      "patterns": [
+        "Resource punkt not found error",
+        "NLTK download stopwords error",
+        "LookupError: Resource punkt_tab not found",
+        "How to download NLTK datasets in Python?",
+        "Fix nltk.download in my code"
+      ],
+      "answer": "To resolve NLTK download errors, run the following commands once in Python before loading your pipeline:\n```python\nimport nltk\nnltk.download('punkt')\nnltk.download('punkt_tab')\nnltk.download('stopwords')\nnltk.download('wordnet')\n```\nOur backend engine also includes automated lazy-download handlers so missing corpora are automatically fetched on initial startup.",
+      "tags": ["nltk", "punkt", "stopwords", "error", "troubleshooting", "python"]
+    },
+    {
+      "id": "faq_014",
+      "category": "Technical Support",
+      "question": "What is the similarity confidence threshold and how is it tuned?",
+      "patterns": [
+        "What is confidence threshold?",
+        "How does the threshold work?",
+        "Why did the bot return a fallback answer?",
+        "How to adjust cosine similarity threshold?",
+        "Tuning threshold score"
+      ],
+      "answer": "The confidence threshold is a cutoff value (typically between 0.30 and 0.45) applied to the cosine similarity score. If the maximum similarity between the user query and the FAQ database is below this threshold, the bot recognizes that the query is outside its knowledge base or too ambiguous, returning a helpful fallback response instead of an incorrect answer.",
+      "tags": ["threshold", "confidence", "cosine similarity", "tuning", "fallback"]
+    },
+    {
+      "id": "faq_015",
+      "category": "Technical Support",
+      "question": "How do I reach human support if my question is not answered?",
+      "patterns": [
+        "How do I talk to a human?",
+        "Contact human support",
+        "Internship coordinator contact email",
+        "Can I speak with a mentor?",
+        "Customer service email address"
+      ],
+      "answer": "You can contact our mentor and coordination team directly by emailing support@codealpha.tech or posting your query in the official community Discord/Telegram support channel. Our team typically responds within 24 to 48 business hours.",
+      "tags": ["human support", "contact", "email", "mentor", "coordinator", "helpdesk"]
+    },
+    {
+      "id": "faq_016",
+      "category": "AI & ML Track",
+      "question": "What is the Object Recognition and Image Classification task?",
+      "patterns": [
+        "What is object recognition?",
+        "What is object detection?",
+        "Tell me about object recognition task",
+        "How to build the image classification and object recognition project?",
+        "What is object in AI tasks?",
+        "Object detection models and datasets",
+        "What is object?",
+        "Explain object recognition"
+      ],
+      "answer": "The Object Recognition and Image Classification task involves building a computer vision model capable of detecting and classifying objects within digital images or video frames. Interns typically use Python with OpenCV, TensorFlow/Keras, or PyTorch, employing deep learning architectures like CNNs, MobileNet, ResNet, or YOLO on benchmark datasets such as CIFAR-10, MNIST, or COCO.",
+      "tags": ["object", "object recognition", "object detection", "image classification", "computer vision", "opencv", "cnn"]
+    },
+    {
+      "id": "faq_017",
+      "category": "AI & ML Track",
+      "question": "What is the Language Translation Tool task?",
+      "patterns": [
+        "What is language translation tool?",
+        "How to build language translator project?",
+        "Tell me about language translation task",
+        "Language translation using NLP and Python",
+        "Translate text project guidelines"
+      ],
+      "answer": "The Language Translation Tool task requires building an application that translates text across multiple languages using natural language processing. Interns can implement this using Python libraries like Googletrans, Hugging Face Transformers (e.g. MarianMT, mBART), or Seq2Seq models with an interactive UI.",
+      "tags": ["translation", "language translator", "nlp", "huggingface", "googletrans"]
+    }
+  ]
+}
